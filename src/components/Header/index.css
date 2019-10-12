@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(70px - 20px);
+  width: 100%;
+  background: #333940;
+  color: #CCE5FE;
+}
+.Header__Header__conferenceName {
+  font-size: 25px;
+}
