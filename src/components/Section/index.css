@@ -1,0 +1,19 @@
+.Section__primary {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background: #CCE5FE;
+  color: #333940;
+}
+
+.Section__secondary {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background: #333940;
+  color: #CCE5FE;
+}
+
+.Section__title {
+  font-size: 40px;
+}
