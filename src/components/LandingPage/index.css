@@ -2,11 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   margin-top: 50px;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
-  background-image: url(../../images/landingPage.jpg);
+  background: url(../../images/landingPage.jpg);
   background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+}
+
+.LandingPage__background {
+  width: 100%;
+  height: 100%;
+  background: #B8CFE6;
+  opacity: .6;
+  position: absolute;
+}
+
+.LandingPage__content {
+  color: #333940;
+  margin: 15px 0;
+  text-align: center;
+  z-index: 1;
+  font-size: 32px;
 }
