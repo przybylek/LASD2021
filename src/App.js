@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from 'components/Header';
-import LandingPage from 'components/LandingPage';
-import About from 'components/About';
+import LandingPage from 'sections/LandingPage';
+import About from 'sections/About';
 import Section from 'components/Section';
-import TopicsInterests from 'components/TopicsInterests';
+import TopicsInterests from 'sections/TopicsInterests';
+import PaperSubmission from 'sections/PaperSubmission';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
       <LandingPage />
       <Section title='About' isSecondary><About /></Section>
       <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
+      <Section title='Paper submission' isSecondary><PaperSubmission /></Section>
     </div>
   );
 }

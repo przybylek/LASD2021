@@ -1,8 +1,6 @@
 .About {
   display: flex;
   flex-direction: column;
-  background: #333940;
-  color: #CCE5FE;
 }
 
 .About__title {
