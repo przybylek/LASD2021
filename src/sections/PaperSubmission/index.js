@@ -27,7 +27,7 @@ function PaperSubmission({history}) {
         Hence, all accepted papers should be submitted in ACM 2-column camera-ready 
         format for publication in the symposium proceedings. 
       </p>
-      <Button text='DOWNLOAD TEMPLATES' onClickHandler={downloadTemplatesHandler}/>
+      <Button text='DOWNLOAD TEMPLATES' onClickHandler={downloadTemplatesHandler} isSecondary/>
     </div>
   );
 }
