@@ -17,7 +17,7 @@ function App() {
       <Section title='About' isSecondary><About /></Section>
       <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
       <Section title='Paper submission' isSecondary><PaperSubmission /></Section>
-      <Section title='Imprtanty Dates' isSecondary><ImportantDates /></Section>
+      <Section title='Imprtant Dates' isSecondary={false}><ImportantDates /></Section>
     </div>
   );
 }
