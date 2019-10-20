@@ -9,7 +9,9 @@ function Section({children, title, isSecondary}) {
   return(
     <div className={isSecondaryStyle}>
       <div className='Section__title'>{title}</div>
-      {children}
+      <div className='Section__content'>
+        {children}
+      </div>
     </div>
   );
 }
