@@ -19,7 +19,7 @@ function App() {
       <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
       <Section title='Paper submission' isSecondary><PaperSubmission /></Section>
       <Section title='Important Dates' isSecondary={false}><ImportantDates /></Section>
-      <Section title='Committtee' isSecondary={false}><Committee /></Section>
+      <Section title='Committee' isSecondary={false}><Committee /></Section>
     </div>
   );
 }

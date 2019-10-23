@@ -9,31 +9,40 @@ class Committee extends Component {
   constructor() {
     super();
     this.state= {
-      parsedCommittee: [],
+      data:[]
     }
+
+    this.getData = this.getData.bind(this);
   }
 
-  componentDidMount() {
-    let parsedData = [];
-    d3.csv(data, (data) => parsedData.push(data));
-    this.setState({parsedCommittee: parsedData})
+ componentWillMount() {
+  var csvFilePath = require("../../documents/committee2021.csv");
+  var Papa = require("papaparse/papaparse.min.js");
+  Papa.parse(csvFilePath, {
+    header: false,
+    download: true,
+    skipEmptyLines: true,
+    complete: this.getData
+  });
+}
+
+  getData(result) {
+    const data = result.data;
+    this.setState({data: data});
   }
-
-
 
   render() {
-    const { parsedCommittee } = this.state;
+    const { data } = this.state;
     return (
       <div className='Committee'>
         <List celled>
-          {parsedCommittee.map(item => {
-            console.log(item)
+          {data.map(item => {
             return (
               <List.Item>
                 <Icon name='' />
                 <List.Content>
-                  <List.Header>{item['Attende']}</List.Header>
-                  {`${item['University']}, ${item['Country']}`}
+                  <List.Header>{item[0]}</List.Header>
+                  {`${item[1]}, ${item[2]}`}
                 </List.Content>
               </List.Item>
             );
