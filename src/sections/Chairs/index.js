@@ -3,18 +3,18 @@ import { Icon, List } from "semantic-ui-react";
 
 import './index.css';
 
-class Committee extends Component {
+class Chairs extends Component {
   constructor() {
     super();
-    this.state= {
-      data:[]
+    this.state = {
+      data: []
     }
 
     this.getData = this.getData.bind(this);
   }
 
- componentWillMount() {
-    var csvFilePath = require("../../documents/committee.csv");
+  componentWillMount() {
+    var csvFilePath = require("../../documents/chairs.csv");
     var Papa = require("papaparse/papaparse.min.js");
     Papa.parse(csvFilePath, {
       header: false,
@@ -32,7 +32,7 @@ class Committee extends Component {
   render() {
     const { data } = this.state;
     return (
-      <div className='Committee'>
+      <div className='Chairs'>
         <List celled>
           {data.map(item => {
             return (
@@ -51,4 +51,4 @@ class Committee extends Component {
   }
 }
 
-export default Committee;
+export default Chairs;

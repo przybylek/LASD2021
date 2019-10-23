@@ -7,6 +7,7 @@ import TopicsInterests from 'sections/TopicsInterests';
 import PaperSubmission from 'sections/PaperSubmission';
 import ImportantDates from 'sections/ImportantDates';
 import Committee from 'sections/Committee';
+import Chairs from 'sections/Chairs';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
       <Section title='Paper submission' isSecondary><PaperSubmission /></Section>
       <Section title='Important Dates' isSecondary={false}><ImportantDates /></Section>
+      <Section title='Chairs' isSecondary={true}><Chairs /></Section>
       <Section title='Committee' isSecondary={false}><Committee /></Section>
     </div>
   );
