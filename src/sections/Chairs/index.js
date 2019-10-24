@@ -39,7 +39,9 @@ class Chairs extends Component {
               <List.Item>
                 <Icon name='user' />
                 <List.Content>
-                  <List.Header>{item[0]}</List.Header>
+                  <List.Header>
+                    <div className='Chairs__listItem__header'>{item[0]}</div>
+                  </List.Header>
                   {`${item[1]}, ${item[2]}`}
                 </List.Content>
               </List.Item>
