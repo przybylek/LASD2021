@@ -11,6 +11,11 @@
   background: #333940;
   color: #CCE5FE;
 }
-.Header__Header__conferenceName {
-  font-size: 25px;
+
+.Header__conferenceName {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
 }
