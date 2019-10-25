@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'semantic-ui-react';
+import Card from 'components/Card';
 
 import Button from 'components/Button';
 import { redirect } from 'utils/navigation';
@@ -35,24 +35,24 @@ const conferences = [
 
 function PastConferences() {
   return (
-    <Card.Group>
+    <div className='PastConferences'>
       {conferences.map(element => {
         return (
-        <Card>
-          <Card.Content>
-            <Card.Header>{element.header}</Card.Header>
-            <Card.Meta>{element.year}</Card.Meta>
-          </Card.Content>
-          <Card.Content extra>
-            <div className='ui two buttons'>
-              <Button text='WEBSITE' isSecondary onClickHandler={() => redirect(element.website)} />
-              <Button text='PROCEEDINGS' isSecondary onClickHandler={() => redirect(element.proceedings)} />
+          <Card isSecondary={false}>
+            <div className='PastConferences__header'>{element.header}</div>
+            <div className='PastConferences__year'>{element.year}</div>
+            <div className='PastConferences__buttons'>
+              <div className='PastConferences__singleButton'>
+                <Button text='WEBSITE' isSecondary onClickHandler={() => redirect(element.website)} />
+              </div>
+              <div className='PastConferences__singleButton'>
+                <Button text='PROCEEDINGS' isSecondary onClickHandler={() => redirect(element.proceedings)} />
+              </div>
             </div>
-          </Card.Content>
-        </Card>
+          </Card>
         );
       })}
-    </Card.Group>
+    </div>
   );
 }
 
