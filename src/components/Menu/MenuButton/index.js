@@ -3,9 +3,9 @@ import { PropTypes } from 'prop-types';
 
 import './index.css';
 
-function MenuButton({text, onClick}) {
+function MenuButton({text}) {
   return (
-    <div className='MenuButton' onClick={onClick}>
+    <div className='MenuButton'>
       {text}
     </div>
   )
@@ -17,7 +17,6 @@ MenuButton.defaultProps = {
 
 MenuButton.propTypes = {
   text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
 };
 
 export default MenuButton;
