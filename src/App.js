@@ -10,6 +10,7 @@ import Committee from 'sections/Committee';
 import Chairs from 'sections/Chairs';
 
 import './App.css';
+import PastConferences from 'sections/PastConferences';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
       <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
       <Section title='Paper submission' isSecondary><PaperSubmission /></Section>
       <Section title='Important Dates' isSecondary={false}><ImportantDates /></Section>
-      <Section title='Chairs' isSecondary={true}><Chairs /></Section>
+      <Section title='Chairs' isSecondary><Chairs /></Section>
       <Section title='Committee' isSecondary={false}><Committee /></Section>
+      <Section title='Past Conferences' isSecondary><PastConferences /></Section>
     </div>
   );
 }

@@ -1,15 +1,9 @@
 import React from 'react';
 import Button from 'components/Button';
 
+import { redirect } from 'utils/navigation';
+
 import './index.css';
-
-function registerClick() {
-  window.location.assign('https://www.sigapp.org/sac/sac2019/');
-}
-
-function downloadTemplatesHandler() {
-  window.location.assign('https://www.sigapp.org/sac/sac2019/');
-}
 
 function PaperSubmission({history}) {
   return (
@@ -17,7 +11,9 @@ function PaperSubmission({history}) {
       <p>
         Submissions will be handled in electronic format, using START system via the website
       </p>
-      <Button text='REGISTER NOW' onClickHandler={registerClick} isSecondary/>
+      <div className='PaperSubmission__button'>
+        <Button text='REGISTER NOW' onClickHandler={() => redirect('https://www.sigapp.org/sac/sac2019/')} isSecondary/>
+      </div>
       <p>
         The author(s) name(s) and address(es) must NOT appear in the body of the 
         paper, and self-reference should be in the third person. Only the title 
@@ -27,7 +23,9 @@ function PaperSubmission({history}) {
         Hence, all accepted papers should be submitted in ACM 2-column camera-ready 
         format for publication in the symposium proceedings. 
       </p>
-      <Button text='DOWNLOAD TEMPLATES' onClickHandler={downloadTemplatesHandler} isSecondary/>
+      <div className='PaperSubmission__button'>
+        <Button text='DOWNLOAD TEMPLATES' onClickHandler={() => redirect('https://www.sigapp.org/sac/sac2019/')} isSecondary/>
+      </div>
     </div>
   );
 }
