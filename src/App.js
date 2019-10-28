@@ -8,6 +8,7 @@ import PaperSubmission from 'sections/PaperSubmission';
 import ImportantDates from 'sections/ImportantDates';
 import Committee from 'sections/Committee';
 import Chairs from 'sections/Chairs';
+import Footer from 'sections/Footer';
 import { Element } from 'react-scroll';
 
 import './App.css';
@@ -41,6 +42,7 @@ function App() {
       <Element name='pastConferenciesSection'>
         <Section title='Past Conferences' isSecondary><PastConferences /></Section>
       </Element>
+      <Footer />
     </div>
   );
 }
