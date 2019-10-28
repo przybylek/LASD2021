@@ -1,22 +1,21 @@
 import React from 'react';
-import MenuButton from 'components/Menu/MenuButton';
+import { menuItems } from 'components/Menu/menuItems';
 import { Link } from 'react-scroll';
-import { menuItems } from './menuItems';
 
 import './index.css'
 
-function Menu() {
+function ResMenu() {
   return (
-    <div className='Menu'>
+    <ul className='ResMenu'>
       {menuItems.map(item => {
         return (
           <Link activeClass='active' to={item.scrollTo} offset={-50} spy={true} smooth={true} duration={500} >
-            <MenuButton text={item.text} />
+            <li>{item.text}</li>
           </Link>
         );
       })}
-    </div>
-  )
+    </ul>
+  );
 }
 
-export default Menu;
+export default ResMenu;

@@ -21,3 +21,9 @@
   color: #CCE5FE;
   cursor: pointer;
 }
+
+@media screen and (max-width: 766px) {
+  .Header {
+    display: none;
+  }
+}
