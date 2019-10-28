@@ -24,15 +24,11 @@
   }
 }
 
-.ResHeader a {
+.ResHeader li {
   text-decoration: none;
   background: #333940;
   color: #CCE5FE;
   display: flex;
-}
-
-.ResHeader a:focus {
-  border: none;
 }
 
 .ResMenu {
@@ -43,9 +39,6 @@
   z-index: 2;
 }
 
-.ResMenu {
-  list-style-type: none;
-}
 
 @media screen and (min-width: 767px) {
   .ResHeader {
