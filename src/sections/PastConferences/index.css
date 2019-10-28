@@ -1,0 +1,39 @@
+.PastConferences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, max-content));
+  gap: 80px 150px;
+  justify-content: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.PastConferences__card {
+  color: #CCE5FE;
+  background: #333940;
+}
+
+.PastConferences__header {
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.PastConferences__year {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid #667380;
+  text-align: center;
+  font-size: 20px;
+}
+
+.PastConferences__buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px
+}
+
+.PastConferences__singleButton {
+  margin: 0 5px;
+}

@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 50px;
+  width: 100%;
+  background: #333940;
+  color: #CCE5FE;
+}
+
+.Header__conferenceName {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+  color: #CCE5FE;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 766px) {
+  .Header {
+    display: none;
+  }
+}

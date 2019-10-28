@@ -1,0 +1,9 @@
+.PaperSubmission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PaperSubmission__button {
+  margin: 30px;
+}

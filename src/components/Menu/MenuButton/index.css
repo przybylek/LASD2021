@@ -1,0 +1,13 @@
+.MenuButton {
+  padding: 15px 10px;
+  width: auto;
+  background: #333940;
+  color: #CCE5FE;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.MenuButton:hover{
+  color: #B8CFE6;
+  border-bottom: 3px solid #99ACBF;
+}

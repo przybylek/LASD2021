@@ -1,0 +1,11 @@
+@media (max-width: 1047px) {
+  .vertical-timeline-element-date {
+    color: #CCE5FE;
+  }
+}
+
+@media (min-width: 1047px) {
+  .vertical-timeline-element-date {
+    color: #333940 !important;
+  }
+}
