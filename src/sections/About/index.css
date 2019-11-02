@@ -1,8 +1,15 @@
 .About {
   display: flex;
   flex-direction: column;
+  padding: 0 170px;
 }
 
 .About__title {
   font-size: 40px;
+}
+
+@media screen and (max-width: 766px) {
+  .About {
+    margin: 0;
+  }
 }
