@@ -37,7 +37,7 @@ function App() {
         <Section title='Chairs' isSecondary><Chairs /></Section>
       </Element>
       <Element name='committiesSection'>
-        <Section title='Committee' isSecondary={false}><Committee /></Section>
+        <Section title='Program Committee' isSecondary={false}><Committee /></Section>
       </Element>
       <Element name='pastConferenciesSection'>
         <Section title='Past Conferences' isSecondary><PastConferences /></Section>

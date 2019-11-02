@@ -3,7 +3,6 @@ export const menuItems = [
   { scrollTo: 'topicsSection', text: 'Topics' },
   { scrollTo: 'paperSubmissionSection', text: 'Paper Submission' },
   { scrollTo: 'datesSection', text: 'Dates' },
-  { scrollTo: 'chairsSection', text: 'Chairs' },
-  { scrollTo: 'committiesSection', text: 'Commitites' },
+  { scrollTo: 'chairsSection', text: 'PC' },
   { scrollTo: 'pastConferenciesSection', text: 'Past Conferencies' }
 ]

@@ -27,7 +27,7 @@ const conferences = [
   },
   {
     header: "LASD@FedCSIS'17",
-    year: '2018',
+    year: '2017',
     website: 'https://www.fedcsis.org/2017/lasd',
     proceedings: 'https://annals-csis.org/Volume_11/#H4LASD'
   },
