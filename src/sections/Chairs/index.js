@@ -42,7 +42,7 @@ class Chairs extends Component {
                   <List.Header>
                     <div className='Chairs__listItem__header'>{item[0]}</div>
                   </List.Header>
-                  {`${item[1]}, ${item[2]}`}
+                  {`${item[1]}, ${item[2]}, ${item[3]}`}
                 </List.Content>
               </List.Item>
             );
