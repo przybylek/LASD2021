@@ -11,5 +11,6 @@
 @media screen and (max-width: 766px) {
   .About {
     margin: 0;
+    padding: 0;
   }
 }
