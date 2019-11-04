@@ -28,3 +28,16 @@
   font-size: 32px;
   line-height: 1;
 }
+
+.LandingPage__conferenceName {
+  font-size: 55px;
+}
+
+.LandingPage__boldArea {
+  font-weight: 900;
+}
+
+.LandinPage__hyperlink {
+  color: #333940;
+  text-decoration: underline;
+}
