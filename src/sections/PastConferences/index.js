@@ -8,26 +8,20 @@ import './index.css';
 
 const conferences = [
   {
-    header: "LASD@FedCSIS'20",
-    year: '2020',
-    website: 'https://fedcsis.org/2020/lasd',
-    proceedings: ''
-  },
-  {
     header: "LASD@FedCSIS'19",
-    year: '2019',
+    year: 'Leipzig 2019',
     website: 'https://www.fedcsis.org/2019/lasd',
     proceedings: 'https://www.annals-csis.org/Volume_18/#H4LASD'
   },
   {
     header: "LASD@FedCSIS'18",
-    year: '2018',
+    year: 'Poznan 2018',
     website: 'https://www.fedcsis.org/2018/lasd',
     proceedings: 'https://annals-csis.org/Volume_15/#H4LASD'
   },
   {
     header: "LASD@FedCSIS'17",
-    year: '2017',
+    year: 'Prague 2017',
     website: 'https://www.fedcsis.org/2017/lasd',
     proceedings: 'https://annals-csis.org/Volume_11/#H4LASD'
   },
