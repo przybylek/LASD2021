@@ -1,1 +1,1 @@
-export const conferenceName="LASD 2020";
+export const conferenceName="LASD 2021";

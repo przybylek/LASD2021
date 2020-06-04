@@ -33,6 +33,12 @@
   font-size: 55px;
 }
 
+.LandingPage__conferenceFee {
+  font-size: 32px;
+  font-style: italic;
+  color: #FFFF00;
+}
+
 .LandingPage__boldArea {
   font-weight: 900;
 }

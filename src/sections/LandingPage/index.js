@@ -6,12 +6,13 @@ function LandingPage() {
   return (
     <div className='LandingPage'>
       <div className='LandingPage__content LandingPage__conferenceName'>
-        LASD 2020
+        LASD 2021
       </div>
       <div className='LandingPage__content'>
-        4th International Conference on <strong>Lean and Agile Software Development </strong>
+        5th International Conference on <strong>Lean and Agile Software Development </strong>
       </div>
-      <div className='LandingPage__content'>16 November, 2020, Online Streaming</div>
+      <div className='LandingPage__content'>23 January, 2021, Online Streaming</div>
+      <div className='LandingPage__content LandingPage__conferenceFee'>Free of charge, with Springer LNBIP proceedings!</div>
       <div className='LandingPage__background'></div>
     </div>
   );

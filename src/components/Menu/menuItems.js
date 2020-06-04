@@ -4,5 +4,5 @@ export const menuItems = [
   { scrollTo: 'paperSubmissionSection', text: 'Paper Submission' },
   { scrollTo: 'datesSection', text: 'Dates' },
   { scrollTo: 'chairsSection', text: 'PC' },
-  { scrollTo: 'pastConferenciesSection', text: 'Past Conferencies' }
+  { scrollTo: 'pastConferenciesSection', text: 'Past Conferences' }
 ]

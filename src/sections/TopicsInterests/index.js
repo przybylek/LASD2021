@@ -19,9 +19,8 @@ const topics = [
   'Measurement and metrics for agile projects, agile processes, and agile teams',
   'Innovation and creativity in software engineering',
   'Variability across the software life cycle',
-  'Industrial experiments, case studies, and experience reports related to all of the above topics',
   'Gamification',
-  'Affective Software Engineering'
+  'Industrial experiments, case studies, and experience reports related to all of the above topics'
 ]
 
 function TopicsInterests() {
