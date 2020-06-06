@@ -17,7 +17,7 @@ class Committee extends Component {
     var csvFilePath = require("../../documents/committee.csv");
     var Papa = require("papaparse/papaparse.min.js");
     Papa.parse(csvFilePath, {
-      header: false,
+      header: true,
       download: true,
       skipEmptyLines: true,
       complete: this.getData
@@ -39,8 +39,8 @@ class Committee extends Component {
               <List.Item>
                 <Icon name='user' />
                 <List.Content>
-                  <List.Header>{item[0]}</List.Header>
-                  {`${item[1]}, ${item[2]}`}
+                  <List.Header>{`${item['lastName']}, ${item['firstName']}`}</List.Header>
+                  {`${item['univ']}, ${item['country']}`}
                 </List.Content>
               </List.Item>
             );
