@@ -8,6 +8,12 @@ import './index.css';
 
 const conferences = [
   {
+    header: "LASD@FedCSIS'20",
+    year: 'Sofia 2020',
+    website: 'https://www.fedcsis.org/2020/lasd',
+    proceedings: 'https://www.fedcsis.org/2020/lasd'
+  },
+  {
     header: "LASD@FedCSIS'19",
     year: 'Leipzig 2019',
     website: 'https://www.fedcsis.org/2019/lasd',

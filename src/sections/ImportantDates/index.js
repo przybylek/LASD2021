@@ -52,6 +52,18 @@ function ImportantDates() {
         contentStyle={{ background: '#333940' , color: '#CCE5FE' }}
         contentArrowStyle={{ borderRight: '7px solid  #333940'}}
         iconStyle={{ background: '#333940', color: '#CCE5FE' }}
+        date="December 31, 2020"
+      >
+        <h3 className="vertical-timeline-element-title">
+          Pre-recorded video submission
+        </h3>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        animate
+        contentStyle={{ background: '#333940' , color: '#CCE5FE' }}
+        contentArrowStyle={{ borderRight: '7px solid  #333940'}}
+        iconStyle={{ background: '#333940', color: '#CCE5FE' }}
         date="January 23, 2021"
       >
         <h3 className="vertical-timeline-element-title">Conference date</h3>

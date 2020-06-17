@@ -26,14 +26,31 @@ function PaperSubmission({history}) {
       </p>
       <p>
         Accepted papers will be published in the conference proceedings by Springer in their Lecture Notes on Business Information Processing (LNBIP) series. 
+        LNBIP volumes are made available to the following indexing services: Web of Science; Scopus, EI Engineering Index; ACM Digital Library; DBLP; Google Scholar.
 	The proceedings will be available at:
       </p>
       <p>
          <a href="https://link.springer.com/conference/lasd">https://link.springer.com/conference/lasd</a> 
       </p>
       <p>
-        LNBIP volumes are made available to the following indexing services: Web of Science; Scopus, EI Engineering Index; ACM Digital Library; DBLP; Google Scholar.
+        Corresponding authors of accepted papers are required to upload a pre-recorded video of their paper presentation to YouTube or other video-sharing platform and send the uploaded video link via email to the conference chair. The presentations will be available 2 weeks before the conference. During the conference, the authors must be available online to interact with attendees for questions and answers.
       </p>
+      <p>
+        There are a lot of tools available to easily record a presentation. By using these tools, you can show your face via webcam and display your slides as you talk. Please, explore the links below for detailed instructions:
+	<dl>
+	  <dt>Zoom</dt>
+	  <dd><a href="https://support.zoom.us/hc/en-us/articles/201362473-Local-Recording">Local recording</a>, <a href="https://ieeetv.ieee.org/mobile/video/recording-your-presentation-with-zoom">IEEE.tv</a></dd>
+	  <dt>PowerPoint</dt>
+	  <dd><a href="https://support.microsoft.com/en-us/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c?ui=en-us&rs=en-us&ad=us">Record a slide show with narration and slide timings</a>, <a href="https://www.youtube.com/watch?v=D8JV3w4TOVw">How to Make a Video in PowerPoint</a></dd>
+	  <dt>KeyNote</dt>
+	  <dd><a href="https://www.youtube.com/watch?v=fe280TjbAXw">How To Record & Export High-Quality Videos</a></dd>
+	  <dt>OBS Studio</dt>
+	  <dd><a href="https://obsproject.com">https://obsproject.com</a></dd>
+	  <dt>CamStudio</dt>
+	  <dd><a href="https://camstudio.org">https://camstudio.org</a></dd>
+	</dl> 
+      </p>
+
 
 
     </div>
