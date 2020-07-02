@@ -22,7 +22,7 @@ function About() {
        </ul>
       </p>
       <p>
-         The objective of LASD is to extend the state-of-the-art in agile software development and spread best practices and stories of successful transitions. Our conference has become a prominent forum where practitioners, researchers, and academics meet to share and discuss their concerns, experience, and research findings.
+         The objective of LASD is to extend the state-of-the-art in lean and agile software development and spread best practices and stories of successful transitions. Our conference has become a prominent forum where practitioners, researchers, and academics meet to share and discuss their concerns, experience, and research findings.
       </p>
     </div>
   );

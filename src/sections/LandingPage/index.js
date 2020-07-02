@@ -12,7 +12,7 @@ function LandingPage() {
         5th International Conference on <strong>Lean and Agile Software Development </strong>
       </div>
       <div className='LandingPage__content'>23 January, 2021, Online event<sup>*</sup></div>
-      <div className='LandingPage__content LandingPage__Online'><sup>*</sup>The conference will consist of pre-recorded presentations and live Q&A sessions</div>
+      <div className='LandingPage__content LandingPage__Online'><sup>*</sup>The conference will consist of pre-recorded presentations and live keynote and Q&A sessions</div>
       <div className='LandingPage__content  LandingPage__Fee'>Free of charge, with Springer LNBIP proceedings!</div>
       <div className='LandingPage__background'></div>
     </div>

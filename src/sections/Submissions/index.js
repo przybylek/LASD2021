@@ -5,9 +5,9 @@ import { redirect } from 'utils/navigation';
 
 import './index.css';
 
-function PaperSubmission({history}) {
+function Submissions({history}) {
   return (
-    <div className='PaperSubmission'>
+    <div className='Submissions'>
       <p>
         We invite research papers in two categories: Full Papers up to 18 pages, and Short Papers up to 8 pages. Papers must be in English and present original, not already published research. 
 	Authors should consult Springer's authors' guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.
@@ -31,6 +31,9 @@ function PaperSubmission({history}) {
       </p>
       <p>
          <a href="https://link.springer.com/conference/lasd">https://link.springer.com/conference/lasd</a> 
+      </p>
+      <p>
+         An extended version of the best paper will be forwarded for further procedure in Computer Science and Information Systems (<a href="http://www.comsis.org">ComSIS</a>), Impact Factor: 0.927.
       </p>
       <p>
         Corresponding authors of accepted papers are required to upload a pre-recorded video of their paper presentation to YouTube or other video-sharing platform and send the uploaded video link via email to the conference chair. The presentations will be available 2 weeks before the conference. During the conference, the authors must be available online to interact with attendees for questions and answers.
@@ -57,4 +60,4 @@ function PaperSubmission({history}) {
   );
 }
 
-export default PaperSubmission;
+export default Submissions;
