@@ -29,7 +29,7 @@ function App() {
       <Element name='topicsSection'>
         <Section title='Topics and Interests' isSecondary={false}><TopicsInterests /></Section>
       </Element>
-      <Element name='submissionSection'>
+      <Element name='submissionsSection'>
         <Section title='Submissions' isSecondary><Submissions /></Section>
       </Element>
       <Element name='datesSection'>
