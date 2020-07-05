@@ -3,6 +3,8 @@ import Button from 'components/Button';
 
 import { redirect } from 'utils/navigation';
 
+import logoLNBIP from 'images/LNBIP_logo.png';
+
 import './index.css';
 
 function Submissions({history}) {
@@ -24,6 +26,7 @@ function Submissions({history}) {
       <p>
         Each submission will be reviewed by at least three program committee members. To facilitate the double-blind reviewing, authors are kindly requested to provide the paper WITHOUT any reference to any of the authors, including the authors' personal details, the acknowledgments section of the paper and any other reference that may disclose the authors' identity.
       </p>
+      <img className='Submissions__logoLNBIP' src={logoLNBIP} alt='logo LNBIP' />
       <p>
         Accepted papers will be published in the conference proceedings by Springer in their Lecture Notes on Business Information Processing (LNBIP) series. 
         LNBIP volumes are made available to the following indexing services: Web of Science; Scopus, EI Engineering Index; ACM Digital Library; DBLP; Google Scholar.
