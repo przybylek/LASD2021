@@ -39,6 +39,13 @@
   color: #FFFF00;
 }
 
+.LandingPage__Reward {
+  font-size: 22px;
+  font-style: italic;
+  color: #FFFF00;
+}
+
+
 .LandingPage__Online {
   font-size: 22px;
 }
@@ -51,3 +58,9 @@
   color: #333940;
   text-decoration: underline;
 }
+
+.LandinPage__url {
+  color: #FFFF00;
+  text-decoration: underline;
+}
+
