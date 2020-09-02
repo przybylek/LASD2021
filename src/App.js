@@ -11,10 +11,12 @@ import Program from 'sections/Program';
 import Committee from 'sections/Committee';
 import Chairs from 'sections/Chairs';
 import Footer from 'sections/Footer';
+import Sponsors from 'sections/Sponsors';
+import PastConferences from 'sections/PastConferences';
 import { Element } from 'react-scroll';
 
 import './App.css';
-import PastConferences from 'sections/PastConferences';
+
 
 function App() {
   return (
@@ -49,6 +51,9 @@ function App() {
       </Element>
       <Element name='pastConferenciesSection'>
         <Section title='Past Conferences' isSecondary><PastConferences /></Section>
+      </Element>
+      <Element name='sponsorsSection'>
+        <Section title='Sponsors' isSecondary={false}><Sponsors /></Section>
       </Element>
       <Footer />
     </div>

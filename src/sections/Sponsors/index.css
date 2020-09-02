@@ -1,0 +1,13 @@
+.Sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Sponsors__logoAgileAlliance {
+    margin: 0px 0 10px 50px;
+    float: right;
+    width: 400px;
+    background: red;
+}
