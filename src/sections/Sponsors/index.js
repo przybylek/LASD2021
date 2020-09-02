@@ -1,5 +1,5 @@
 import React from 'react';
-import logoAgileAlliance from 'images/Agile_Alliance_Logo_Colour_rectangle.jpg';
+import logoAgileAlliance from 'images/Agile_Alliance_Logo_Colour.png';
 import './index.css';
 
 function Sponsors() {
