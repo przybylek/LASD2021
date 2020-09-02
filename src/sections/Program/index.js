@@ -1,7 +1,4 @@
 import React from 'react';
-
-import { redirect } from 'utils/navigation';
-
 import './index.css';
 
 function Program({history}) {
