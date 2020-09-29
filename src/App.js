@@ -9,6 +9,7 @@ import ImportantDates from 'sections/ImportantDates';
 import Keynotes from 'sections/Keynotes';
 import Program from 'sections/Program';
 import Committee from 'sections/Committee';
+import Reviewers from 'sections/Reviewers';
 import Chairs from 'sections/Chairs';
 import Footer from 'sections/Footer';
 import Sponsors from 'sections/Sponsors';
@@ -49,11 +50,14 @@ function App() {
       <Element name='committiesSection'>
         <Section title='Program Committee' isSecondary={false}><Committee /></Section>
       </Element>
-      <Element name='pastConferenciesSection'>
-        <Section title='Past Conferences' isSecondary><PastConferences /></Section>
+      <Element name='reviewersSection'>
+        <Section title='Reviewers' isSecondary><Reviewers /></Section>
       </Element>
       <Element name='sponsorsSection'>
         <Section title='Sponsors' isSecondary={false}><Sponsors /></Section>
+      </Element>
+      <Element name='pastConferenciesSection'>
+        <Section title='Past Conferences' isSecondary><PastConferences /></Section>
       </Element>
       <Footer />
     </div>
