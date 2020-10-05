@@ -12,7 +12,7 @@ function ImportantDates() {
         iconStyle={{ background: '#333940', color: '#CCE5FE' }}
         date="October 1, 2020 (strict deadline)"
       >
-        <h3 className="vertical-timeline-element-title">Paper submission</h3>
+        <h3 className="vertical-timeline-element-title"><del>Paper submission</del></h3>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
