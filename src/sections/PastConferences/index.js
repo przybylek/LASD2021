@@ -11,7 +11,7 @@ const conferences = [
     header: "LASD@FedCSIS'20",
     year: 'Sofia 2020',
     website: 'https://www.fedcsis.org/2020/lasd',
-    proceedings: 'https://www.fedcsis.org/2020/lasd'
+    proceedings: 'https://annals-csis.org/Volume_21/#H4LASD'
   },
   {
     header: "LASD@FedCSIS'19",
