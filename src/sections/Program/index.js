@@ -27,7 +27,7 @@ class Program extends React.Component {
     <div className='PaperSubmission'>
 
     <p>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
-    <p><Moment interval={1000} format="YYYY/MM/DD hh:mm:ss">{localDataTime}</Moment></p>
+    <p><Moment interval={1000} format="YYYY/MM/DD HH:mm:ss">{localDataTime}</Moment></p>
 
 
     <table border="1">
@@ -36,12 +36,12 @@ class Program extends React.Component {
 	  <tr><td>11:20 - 12:15</td><td>Agility Yesterday, Today & Tomorrow (followed by a 10-minute discussion)<br /><span class='author'>Philipp Diebold</span><br /></td></tr>
 	  <tr><td>12:15 - 13:00</td><td>Q&A:
 		<ul>
-			<li>Women in Agile: The Impact of Organizational Support for Women's Advancement on Teamwork Quality and Performance in Agile Software Development Teams<br /><span class='author'>Asli Yüksel Aksekili and Christoph Johann Stettina</span></li>
-			<li>The state of Agile Software Development Teams during the Covid-19 pandemic<br /><span class='author'>Krzysztof Marek, Ewelina Wińska and Włodzimierz Dąbrowski</span></li>
+			<li><a href="https://www.youtube.com/watch?v=08ilsdxNm3E">Women in Agile: The Impact of Organizational Support for Women's Advancement on Teamwork Quality and Performance in Agile Software Development Teams</a><br /><span class='author'>Asli Yüksel Aksekili and Christoph Johann Stettina</span></li>
+			<li><a href="https://youtu.be/JV34Q3TMqYI">The state of Agile Software Development Teams during the COVID-19 pandemic</a><br /><span class='author'>Krzysztof Marek, Ewelina Wińska and Włodzimierz Dąbrowski</span></li>
 			<li><a href="https://youtu.be/_IJ_RmxBnbo">The Sars-Cov-2 Pandemic and Agile Methodologies in Software Development: A Multiple Case Study in Germany</a><br /><span class='author'>Michael Neumann, Yevgen Bogdanov, Martin Lier and Lars Baumann</span></li>
-			<li>Agile Project Development Facing Issues in Pandemic Situation the COVID-19<br /><span class='author'>Shariq Aziz Butt, Sanjay Misra, Muhammad Waqas Ajnum and Syed Areeb Hassan</span></li>
-			<li>Implementing Lean Principles in Scrum to Adapt to Remote Work in a Covid-19 Impacted Software Team<br /><span class='author'>Leigh Griffin</span></li>
-			<li>MSFL: A model for Fault Localization using Mutation-Spectra technique<br /><span class='author'>Arpita Dutta and Sangharatna Godboley</span></li>
+			<li><a href="https://youtu.be/FJfhhx9Xajc">Agile Project Development Facing Issues in Pandemic Situation the COVID-19</a><br /><span class='author'>Shariq Aziz Butt, Sanjay Misra, Muhammad Waqas Ajnum and Syed Areeb Hassan</span></li>
+			<li>Implementing Lean Principles in Scrum to Adapt to Remote Work in a COVID-19 Impacted Software Team<br /><span class='author'>Leigh Griffin</span></li>
+			<li><a href="https://drive.google.com/file/d/1AnfTw66JM9uWjUBiSJI7x30o5hzcuN_z/view?usp=sharing">MSFL: A model for Fault Localization using Mutation-Spectra technique</a><br /><span class='author'>Arpita Dutta and Sangharatna Godboley</span></li>
 		</ul>
 	  </td></tr>
       <tr><th colspan="2">Coffee break </th></tr>
@@ -49,10 +49,10 @@ class Program extends React.Component {
 	  <tr><td>14:00 - 14:55</td><td>Pair Programming: An Empirical investigation in an Agile Software Development environment (followed by a 10-minute discussion)<br /><span class='author'>Sanjay Misra</span></td></tr>
 	  <tr><td>14:55	- 15:40</td><td>Q&A:
 		<ul>
-			<li>Achieving Agility in IT Project Portfolios – a systematic literature review<br /><span class='author'>Joseph Puthenpurackal Chakko, Tim Huygh and Steven De Haes</span></li>
-			<li>A Systematic Literature Review on Implementing Non-functional Requirements in Agile Software Development: Issues and Facilitating Practices<br /><span class='author'>Aleksander Jarzębowicz and Paweł Weichbroth</span></li>
-			<li>Product Roadmapping Processes for an Uncertain Market Environment: A Grey Literature Review<br /><span class='author'>Stefan Trieflinger, Jürgen Münch, Emre Bogazköy, Jan Schneider, Patrick Eißler, Bastian Roling and Dominic Lang</span></li>
-			<li>Experience vs Data: A Case for More Data-informed Retrospective Activities<br /><span class='author'>Christoph Matthies and Franziska Dobrigkeit</span></li>
+			<li><a href="https://youtu.be/j-xti21T30c">Achieving Agility in IT Project Portfolios – a systematic literature review</a><br /><span class='author'>Joseph Puthenpurackal Chakko, Tim Huygh and Steven De Haes</span></li>
+			<li><a href="https://youtu.be/PjQ8U_DxUaA">A Systematic Literature Review on Implementing Non-functional Requirements in Agile Software Development: Issues and Facilitating Practices</a><br /><span class='author'>Aleksander Jarzębowicz and Paweł Weichbroth</span></li>
+			<li><a href="https://youtu.be/z5eRZzDp_sg">Product Roadmapping Processes for an Uncertain Market Environment: A Grey Literature Review</a><br /><span class='author'>Stefan Trieflinger, Jürgen Münch, Emre Bogazköy, Jan Schneider, Patrick Eißler, Bastian Roling and Dominic Lang</span></li>
+			<li><a href="https://youtu.be/F_7E2KoRh_4">Experience vs Data: A Case for More Data-informed Retrospective Activities</a><br /><span class='author'>Christoph Matthies and Franziska Dobrigkeit</span></li>
 			<li>Reducing the uncertainty of agile software development using a random forest classification algorithm<br /><span class='author'>Ewelina Wińska, Estera Kot and Włodzimierz Dąbrowski</span></li>
 			<li>Business-Oriented approach to Requirements Elicitation in a Scrum project<br /><span class='author'>Michał Sosnowski, Michał Bereza, Yen Ying Ng</span></li>
 		</ul>
