@@ -15,6 +15,7 @@ function LandingPage() {
       <div className='LandingPage__content LandingPage__Online'><sup>*</sup>The conference will consist of pre-recorded presentations, live keynotes and Q&A sessions</div>
       <div className='LandingPage__content  LandingPage__Fee'>Free of charge, with Springer LNBIP proceedings!</div>
       <div className='LandingPage__content  LandingPage__Reward'>Corresponding authors of 20 top-rated accepted papers will get complimentary 1 year membership in <a className='LandinPage__url' href='https://www.agilealliance.org'>Agile Alliance</a>!</div>
+      <div className='LandingPage__content  LandingPage__Registration'><a className='LandinPage__url' href='https://forms.gle/CyxBcVeGCqP4mM7cA'>Online Registration</a></div>
       <div className='LandingPage__background'></div>
     </div>
   );
