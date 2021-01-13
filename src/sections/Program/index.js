@@ -2,6 +2,7 @@ import React from 'react';
 import Moment from 'react-moment';
 
 import './index.css';
+import logoLNBIP_LASD21 from 'images/LNBIP_LASD21.jpg';
 
 
 class Program extends React.Component {
@@ -25,6 +26,12 @@ class Program extends React.Component {
       
         return (
     <div className='PaperSubmission'>
+      <p>
+        <img className='Submissions__logoLNBIP' src={logoLNBIP_LASD21} alt='logo LNBIP_LASD21' />
+<h1>Lean and Agile Software Development</h1>
+<h2>5th International Conference, LASD 2021, Virtual Event, January 23, 2021, Proceedings</h2>
+<h1>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-67084-9">LNBIP, volume 408</a></h1>
+      </p>
 
     <p>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
     <p><Moment interval={1000} format="YYYY/MM/DD HH:mm:ss">{localDataTime}</Moment></p>

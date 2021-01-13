@@ -6,5 +6,5 @@ export const menuItems = [
   { scrollTo: 'keynotesSection', text: 'Keynotes' },
   { scrollTo: 'programSection', text: 'Program' },
   { scrollTo: 'chairsSection', text: 'PC' },
-  { scrollTo: 'pastConferenciesSection', text: 'Past Conferences' }
+  { scrollTo: 'pastConferenciesSection', text: 'History' }
 ]

@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.Submissions__logoLNBIP {
+    margin: 0px 30px 0 0;
+    float: left;
+    width: 153px;
+    height: 231px
+}
+
 .author {
   font-style: italic;
 }

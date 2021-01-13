@@ -42,7 +42,7 @@ function App() {
         <Section title='Keynote Speakers' isSecondary><Keynotes /></Section>
       </Element>
       <Element name='programSection'>
-        <Section title='Program' isSecondary={false}><Program /></Section>
+        <Section title='Program and proceedings' isSecondary={false}><Program /></Section>
       </Element>
       <Element name='chairsSection'>
         <Section title='Chairs' isSecondary><Chairs /></Section>
@@ -57,7 +57,7 @@ function App() {
         <Section title='Sponsors' isSecondary={false}><Sponsors /></Section>
       </Element>
       <Element name='pastConferenciesSection'>
-        <Section title='Past Conferences' isSecondary><PastConferences /></Section>
+        <Section title='History' isSecondary><PastConferences /></Section>
       </Element>
       <Footer />
     </div>
