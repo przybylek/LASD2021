@@ -47,11 +47,11 @@ class Program extends React.Component {
 			<li><a href="https://youtu.be/JV34Q3TMqYI">The state of Agile Software Development Teams during the COVID-19 pandemic</a><br /><span class='author'>Krzysztof Marek, Ewelina Wińska and Włodzimierz Dąbrowski</span></li>
 			<li><a href="https://youtu.be/_IJ_RmxBnbo">The Sars-Cov-2 Pandemic and Agile Methodologies in Software Development: A Multiple Case Study in Germany</a><br /><span class='author'>Michael Neumann, Yevgen Bogdanov, Martin Lier and Lars Baumann</span></li>
 			<li><a href="https://youtu.be/FJfhhx9Xajc">Agile Project Development Facing Issues in Pandemic Situation the COVID-19</a><br /><span class='author'>Shariq Aziz Butt, Sanjay Misra, Muhammad Waqas Ajnum and Syed Areeb Hassan</span></li>
-			<li>Implementing Lean Principles in Scrum to Adapt to Remote Work in a COVID-19 Impacted Software Team<br /><span class='author'>Leigh Griffin</span></li>
+			<li><a href="https://youtu.be/1_N3cGu5mrE">Implementing Lean Principles in Scrum to Adapt to Remote Work in a COVID-19 Impacted Software Team</a><br /><span class='author'>Leigh Griffin</span></li>
 			<li><a href="https://drive.google.com/file/d/1AnfTw66JM9uWjUBiSJI7x30o5hzcuN_z/view?usp=sharing">MSFL: A model for Fault Localization using Mutation-Spectra technique</a><br /><span class='author'>Arpita Dutta and Sangharatna Godboley</span></li>
 		</ul>
 	  </td></tr>
-      <tr><th colspan="2">Coffee break </th></tr>
+      <tr><th colspan="2">Break </th></tr>
       <tr><th colspan="2">Session 2 (Chair: <span class='author'>Jakub Miler</span>)</th></tr>      
 	  <tr><td>14:00 - 14:55</td><td>Pair Programming: An Empirical investigation in an Agile Software Development environment (followed by a 10-minute discussion)<br /><span class='author'>Sanjay Misra</span></td></tr>
 	  <tr><td>14:55	- 15:40</td><td>Q&A:
