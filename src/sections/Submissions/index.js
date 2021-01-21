@@ -36,7 +36,8 @@ function Submissions({history}) {
 	The proceedings will be available at: <a href="https://link.springer.com/conference/lasd">https://link.springer.com/conference/lasd</a>
       </p>
       <p>
-         An extended version of the best paper will be forwarded for further procedure in Computer Science and Information Systems (<a href="http://www.comsis.org">ComSIS</a>, IF: 0.927), while the corresponding author will receive a prize of a <a href="https://www.teamretro.com/?rc=lasd21">TeamRetro</a> single team access for 12 months (valued at USD$250). TeamRetro is a remote agile retrospective and team health check tool.
+         An extended version of best papers will be forwarded for further procedure in <em>Computer Science and Information Systems</em> (<a href="http://www.comsis.org">ComSIS</a>, IF: 0.927) and <em>Journal of Computer Languages</em> (<a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a>, IF: 1.250).
+	 Besides, the corresponding author of the best paper will receive a prize of a <a href="https://www.teamretro.com/?rc=lasd21">TeamRetro</a> single team access for 12 months (valued at USD$250). TeamRetro is a remote agile retrospective and team health check tool.
       </p>
       <p>
         Corresponding authors of accepted papers are required to upload a pre-recorded video of their paper presentation to YouTube or other video-sharing platform and send the uploaded video link via email to the conference chair. The presentations will be available 2 weeks before the conference. During the conference, the authors must be available online to interact with attendees for questions and answers.

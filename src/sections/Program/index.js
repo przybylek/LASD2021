@@ -65,7 +65,13 @@ class Program extends React.Component {
 			<li><a href="https://youtu.be/DxhoE3GwPhY">Business-Oriented approach to Requirements Elicitation in a Scrum project</a><br /><span class='author'>Michał Sosnowski, Michał Bereza, Yen Ying Ng</span></li>
 		</ul>
 	  </td></tr>
-	  <tr><td>15:40 - 15:50</td><td>Conference closing </td></tr>
+	  <tr><td>15:40 - 15:55</td><td>Conference closing:
+		<ul>
+			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a><br /><span class='author'>Ivan Luković</span></li>
+			<li>Other opportunities for 2021: <a href="http://www.acs.uns.ac.rs/adbis2020/">MADEISD</a>, <a href="https://fedcsis.org/2021/wapl">WAPL</a><br /><span class='author'>Ivan Luković</span></li>
+			<li>Future of LASD<br /><span class='author'>Adam Przybyłek</span></li>
+		</ul>
+	  </td></tr>
     </table>	 
     </div>
         );
