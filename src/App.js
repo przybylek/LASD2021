@@ -45,7 +45,7 @@ function App() {
         <Section title='Program and proceedings' isSecondary={false}><Program /></Section>
       </Element>
       <Element name='chairsSection'>
-        <Section title='Chairs' isSecondary><Chairs /></Section>
+        <Section title='Chair' isSecondary><Chairs /></Section>
       </Element>
       <Element name='committiesSection'>
         <Section title='Program Committee' isSecondary={false}><Committee /></Section>

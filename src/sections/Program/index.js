@@ -38,9 +38,9 @@ class Program extends React.Component {
 
 
     <table border="1">
-      <tr><th colspan="2">Session 1 (Chair: <span class='author'>Aleksander Jarzębowicz</span>)</th></tr>
+      <tr><th>Saturday, Jan. 23</th><th>Session 1 (Chair: <span class='author'>Aleksander Jarzębowicz</span>)</th></tr>
       <tr><td>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
-      <tr><td>11:10 - 11:20</td><td>Conference opening<br /><span class='author'>Adam Przybyłek</span></td></tr>
+      <tr><td>11:10 - 11:20</td><td><a href="https://github.com/przybylek/LASD/tree/master/src/documents/LASD21.pdf">Conference opening</a><br /><span class='author'>Adam Przybyłek</span></td></tr>
       <tr><td>11:20 - 12:15</td><td>Agility Yesterday, Today & Tomorrow (followed by a 10-minute discussion)<br /><span class='author'>Philipp Diebold</span><br /></td></tr>
       <tr><td>12:15 - 13:00</td><td>Q&A:
 		<ul>
@@ -53,7 +53,7 @@ class Program extends React.Component {
 		</ul>
 	  </td></tr>
       <tr><th colspan="2">Break </th></tr>
-      <tr><th colspan="2">Session 2 (Chair: <span class='author'>Jakub Miler</span>)</th></tr>      
+      <tr><th>Saturday, Jan. 23</th><th>Session 2 (Chair: <span class='author'>Jakub Miler</span>)</th></tr>      
 	  <tr><td>14:00 - 14:55</td><td>Pair Programming: An Empirical investigation in an Agile Software Development environment (followed by a 10-minute discussion)<br /><span class='author'>Sanjay Misra</span></td></tr>
 	  <tr><td>14:55	- 15:40</td><td>Q&A:
 		<ul>
@@ -67,8 +67,8 @@ class Program extends React.Component {
 	  </td></tr>
 	  <tr><td>15:40 - 15:55</td><td>Conference closing:
 		<ul>
-			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a><br /><span class='author'>Ivan Luković</span></li>
-			<li>Other opportunities for 2021: <a href="http://www.acs.uns.ac.rs/adbis2020/">MADEISD</a>, <a href="https://fedcsis.org/2021/wapl">WAPL</a><br /><span class='author'>Ivan Luković</span></li>
+			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 0.927) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.250)<br /><span class='author'>Ivan Luković</span></li>
+			<li>Other opportunities for 2021: <a href="http://www.acs.uns.ac.rs/adbis2020/">MADEISD@ADBIS</a>, <a href="https://fedcsis.org/2021/wapl">WAPL@FedCSIS</a>, <a href="https://www.fedcsis.org/2021/sse">SSE@FedCSIS</a><br /><span class='author'>Ivan Luković</span></li>
 			<li>Future of LASD<br /><span class='author'>Adam Przybyłek</span></li>
 		</ul>
 	  </td></tr>
