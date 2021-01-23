@@ -40,7 +40,7 @@ class Program extends React.Component {
     <table border="1">
       <tr><th>Saturday, Jan. 23</th><th>Session 1 (Chair: <span class='author'>Aleksander Jarzębowicz</span>)</th></tr>
       <tr><td>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
-      <tr><td>11:10 - 11:20</td><td><a href="https://github.com/przybylek/LASD/tree/master/src/documents/LASD21.pdf">Conference opening</a><br /><span class='author'>Adam Przybyłek</span></td></tr>
+      <tr><td>11:10 - 11:20</td><td><a href="https://github.com/przybylek/LASD/tree/master/src/documents/LASD2021.pdf">Conference opening</a><br /><span class='author'>Adam Przybyłek</span></td></tr>
       <tr><td>11:20 - 12:15</td><td>Agility Yesterday, Today & Tomorrow (followed by a 10-minute discussion)<br /><span class='author'>Philipp Diebold</span><br /></td></tr>
       <tr><td>12:15 - 13:00</td><td>Q&A:
 		<ul>
