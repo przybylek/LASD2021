@@ -3,6 +3,7 @@ import Moment from 'react-moment';
 
 import './index.css';
 import logoLNBIP_LASD21 from 'images/LNBIP_LASD21.jpg';
+import bestPaper from 'images/bestPaper.png';
 
 
 class Program extends React.Component {
@@ -27,7 +28,7 @@ class Program extends React.Component {
         return (
     <div className='PaperSubmission'>
       <p>
-        <img className='Submissions__logoLNBIP_LASD' src={logoLNBIP_LASD21} alt='logo LNBIP_LASD21' />
+        <img className='Program__logoLNBIP_LASD' src={logoLNBIP_LASD21} alt='logo LNBIP_LASD21' />
 <h1>Lean and Agile Software Development</h1>
 <h2>5th International Conference, LASD 2021, Virtual Event, January 23, 2021, Proceedings</h2>
 <h1>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-67084-9">LNBIP, volume 408</a></h1>
@@ -44,7 +45,7 @@ class Program extends React.Component {
       <tr><td>11:20 - 12:15</td><td>Agility Yesterday, Today & Tomorrow (followed by a 10-minute discussion)<br /><span class='author'>Philipp Diebold</span><br /></td></tr>
       <tr><td>12:15 - 13:00</td><td>Q&A:
 		<ul>
-			<li><a href="https://www.youtube.com/watch?v=08ilsdxNm3E">Women in Agile: The Impact of Organizational Support for Women's Advancement on Teamwork Quality and Performance in Agile Software Development Teams</a><br /><span class='author'>Asli Yüksel Aksekili and Christoph Johann Stettina</span></li>
+			<li><img className='Program__bestPaper' src={bestPaper} alt='best paper' /><a href="https://www.youtube.com/watch?v=08ilsdxNm3E">Women in Agile: The Impact of Organizational Support for Women's Advancement on Teamwork Quality and Performance in Agile Software Development Teams</a><br /><span class='author'>Asli Yüksel Aksekili and Christoph Johann Stettina</span></li>
 			<li><a href="https://youtu.be/JV34Q3TMqYI">The state of Agile Software Development Teams during the COVID-19 pandemic</a><br /><span class='author'>Krzysztof Marek, Ewelina Wińska and Włodzimierz Dąbrowski</span></li>
 			<li><a href="https://youtu.be/_IJ_RmxBnbo">The Sars-Cov-2 Pandemic and Agile Methodologies in Software Development: A Multiple Case Study in Germany</a><br /><span class='author'>Michael Neumann, Yevgen Bogdanov, Martin Lier and Lars Baumann</span></li>
 			<li><a href="https://youtu.be/FJfhhx9Xajc">Agile Project Development Facing Issues in Pandemic Situation the COVID-19</a><br /><span class='author'>Shariq Aziz Butt, Sanjay Misra, Muhammad Waqas Ajnum and Syed Areeb Hassan</span></li>

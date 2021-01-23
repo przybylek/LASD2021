@@ -4,12 +4,21 @@
   align-items: center;
 }
 
-.Submissions__logoLNBIP_LASD {
+.Program__logoLNBIP_LASD {
     margin: 0px 30px 0 0;
     float: left;
     width: 153px;
     height: 231px
 }
+
+.Program__bestPaper {
+    margin: 0px 10px 0px 0px;
+    float: left;
+    width: 22px;
+    height: 38px
+}
+
+
 
 .author {
   font-style: italic;
