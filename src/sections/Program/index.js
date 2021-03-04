@@ -69,7 +69,7 @@ class Program extends React.Component {
 	  <tr><td>15:40 - 15:55</td><td>Conference closing:
 		<ul>
 			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 0.927) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.250)<br /><span class='author'>Ivan Luković</span></li>
-			<li>Other opportunities for 2021: <a href="http://www.acs.uns.ac.rs/adbis2020/">MADEISD@ADBIS</a>, <a href="https://fedcsis.org/2021/wapl">WAPL@FedCSIS</a>, <a href="https://www.fedcsis.org/2021/sse">SSE@FedCSIS</a><br /><span class='author'>Ivan Luković</span></li>
+			<li>Other opportunities for 2021: <a href="http://www.acs.uns.ac.rs/adbis2021/">MADEISD@ADBIS</a>, <a href="https://fedcsis.org/2021/wapl">WAPL@FedCSIS</a>, <a href="https://www.fedcsis.org/2021/sse">SSE@FedCSIS</a><br /><span class='author'>Ivan Luković</span></li>
 			<li>Future of LASD<br /><span class='author'>Adam Przybyłek</span></li>
 		</ul>
 	  </td></tr>
